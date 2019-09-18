@@ -1,2 +1,2 @@
 # php_aulas
-Repositório com os exemplos realizados nas aulas de Desenvolvimento para Servidores(php) - Prof. Lígia Prete 
+Repositório com os exemplos realizados nas aulas de Desenvolvimento para Servidores(php). 
