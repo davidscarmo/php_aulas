@@ -1,0 +1,16 @@
+
+form, #titleForm
+{
+    width: 25vw;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+#form-area
+{
+    border: 2px solid black;
+    width: 27vw;
+    margin: 0 auto;
+    padding: 1% 0 2% 0;
+}
