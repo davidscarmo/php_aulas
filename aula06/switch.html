@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Switch</title>
+</head>
+<body>
+    <form action="switch.php">
+    <label for="valor-pgto">Valor do pagamento: </label>
+    <input type="number" name="valor-pgto" id="valor-pgto">
+
+    <fieldset>
+        <legend>Pagamento</legend>
+        
+        <input type="radio" name="op" id="op1" value="1">
+        <label for="op">Pagamento á vista e desconto de 10%</label><br>
+
+        
+        <input type="radio" name="op" id="op2" value="2">
+        <label for="op">Pagamento em 30 dias e juros de 5%</label><br>
+
+        
+        <input type="radio" name="op" id="op3" value="3">
+        <label for="op">Pagamento em 60 dias e juros de 10%</label><br>
+    </fieldset>
+    <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
